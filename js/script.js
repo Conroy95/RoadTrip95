@@ -4,6 +4,7 @@ const days = [
         hotel: {
             name: "Hampton Inn by Hilton Los Angeles Airport",
             image: "images/1.jpg",
+            coordinates: { lat: 52.379189, lon: 4.899431 }, // Coodrinaten
         },
         stops: ["Tussenstop 1: Utrecht", "Tussenstop 2: Den Bosch"],
     },
