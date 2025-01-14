@@ -39,13 +39,3 @@ img {
   height: auto;
   border-radius: 10px;
 }
-
-footer {
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  padding: 0.5rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
