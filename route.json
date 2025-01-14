@@ -1,8 +1,39 @@
 {
-  "day": 1,
-  "hotel": {
-    "name": "Hotel Sunshine",
-    "adress": "123 Main Street, City A",
-    "link": "https://example.com"
-  },
-  "stops": [
+  "days": [
+    {
+      "day": 1,
+      "hotel": {
+        "name": "Hotel Sunshine",
+        "address": "123 Main Street, City A",
+        "link": "https://example.com/hotel-sunshine"
+      },
+      "stops": [
+        {
+          "name": "Scenic Park",
+          "description": "A beautiful park with hiking trails.",
+          "coordinates": "45.123,-93.123"
+        },
+        {
+          "name": "Museum of Art",
+          "description": "A museum showcasing local art.",
+          "coordinates": "45.456,-93.456"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "hotel": {
+        "name": "Mountain Lodge",
+        "address": "456 Hill Street, City B",
+        "link": "https://example.com/mountain-lodge"
+      },
+      "stops": [
+        {
+          "name": "Lakeview Point",
+          "description": "A serene lake with picnic spots.",
+          "coordinates": "46.123,-94.123"
+        }
+      ]
+    }
+  ]
+}
