@@ -1,29 +1,30 @@
 {
   "days": [
     {
-      "day": 1,
+      "day": 6 May,
       "hotel": {
-        "name": "Hotel Sunshine",
-        "address": "123 Main Street, City A",
-        "link": "https://example.com/hotel-sunshine"
+        "name": "Hampton Inn by Hilton Los Angeles Airport",
+        "address": "10300 La Cienega Blvd | Inglewood CA 90304",
+        "coordinates": "33.942722,-118.369611",
+        "link": "https://example.com/"
       },
       "stops": [
         {
-          "name": "Scenic Park",
-          "description": "A beautiful park with hiking trails.",
-          "coordinates": "45.123,-93.123"
+          "name": "Unknown",
+          "description": "Info",
+          "coordinates": ""
         },
         {
-          "name": "Museum of Art",
-          "description": "A museum showcasing local art.",
-          "coordinates": "45.456,-93.456"
+          "name": "Unknown",
+          "description": "Info",
+          "coordinates": ""
         }
       ]
     },
     {
-      "day": 2,
+      "day": 7 May,
       "hotel": {
-        "name": "Mountain Lodge",
+        "name": "Cambria Pines Lodge",
         "address": "456 Hill Street, City B",
         "link": "https://example.com/mountain-lodge"
       },
