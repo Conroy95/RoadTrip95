@@ -1,31 +1,58 @@
-/* style.css */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background: #333;
-  color: #fff;
-  padding: 10px 20px;
-  text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
 }
 
-main {
-  padding: 20px;
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
 }
 
-button {
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  background: #007BFF;
-  color: white;
-  cursor: pointer;
+nav ul li {
+    margin: 0 10px;
 }
 
-button:disabled {
-  background: #ccc;
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+}
+
+.day {
+    margin-bottom: 20px;
+}
+
+.hotel {
+    display: flex;
+    align-items: center;
+}
+
+.hotel img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.stops {
+    margin-top: 10px;
+}
+
+.stops ul {
+    list-style: circle;
+    margin-left: 20px;
 }
