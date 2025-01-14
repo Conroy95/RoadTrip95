@@ -48,11 +48,14 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.stops {
-    margin-top: 10px;
+.hotel p,
+.stops ul li {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
 }
 
-.stops ul {
-    list-style: circle;
-    margin-left: 20px;
+.stops ul li strong {
+    font-size: 16px;
+    color: #333;
 }
