@@ -1,33 +1,37 @@
 [
   {
-    "title": "Dag 1: Start van de reis",
-    "hotel": "Hotel Amsterdam",
-    "coordinates": "52.379189, 4.899431",
+    "title": "Dag 1: 6 Mei - Aankomst Los Angeles",
+    "hotel": "Hampton Inn By Hilton Los Angeles Airport",
+    "coordinates": "33.942722, -118.369611",
     "image": "./images/hotel1.jpg",
     "stops": [
       {
-        "name": "Utrecht",
-        "coordinates": "52.090736, 5.121420"
+        "name": "",
+        "coordinates": ""
       },
       {
-        "name": "Den Bosch",
-        "coordinates": "51.697816, 5.303675"
+        "name": "",
+        "coordinates": ""
       }
     ]
   },
   {
-    "title": "Dag 2: Naar België",
-    "hotel": "Hotel Brussels",
-    "coordinates": "50.850340, 4.351710",
+    "title": "Dag 2: 7 Mei - Naar Cambria",
+    "hotel": "Cambria Pines Lodge",
+    "coordinates": "35.558722, -121.080111",
     "image": "./images/hotel2.jpg",
     "stops": [
       {
-        "name": "Antwerpen",
-        "coordinates": "51.219448, 4.402464"
+        "name": "Santa Barbara",
+        "coordinates": "Not Yet"
       },
       {
-        "name": "Gent",
-        "coordinates": "51.054342, 3.717424"
+        "name": "Vandenberg Space Force Base Visitor Center",
+        "coordinates": "Not Yet"
+      },
+      {
+        "name": "Pismo Beach",
+        "coordinates": "Not Yet"
       }
     ]
   },
