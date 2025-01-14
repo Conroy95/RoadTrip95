@@ -1,1 +1,23 @@
-
+[
+  {
+    "title": "Dag 1: Start van de reis",
+    "hotel": "Hotel Amsterdam",
+    "coordinates": "52.379189, 4.899431",
+    "image": "./images/hotel1.jpg",
+    "stops": ["Stop 1: Utrecht", "Stop 2: Den Bosch"]
+  },
+  {
+    "title": "Dag 2: Naar België",
+    "hotel": "Hotel Brussels",
+    "coordinates": "50.850340, 4.351710",
+    "image": "./images/hotel2.jpg",
+    "stops": ["Stop 1: Antwerpen", "Stop 2: Gent"]
+  },
+  {
+    "title": "Dag 3: Naar Frankrijk",
+    "hotel": "Hotel Paris",
+    "coordinates": "48.856614, 2.352222",
+    "image": "./images/hotel3.jpg",
+    "stops": ["Stop 1: Lille", "Stop 2: Arras"]
+  }
+]
