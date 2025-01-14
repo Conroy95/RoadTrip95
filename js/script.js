@@ -50,12 +50,22 @@ function showDay(index) {
                 <img src="${day.hotel.image}" alt="${day.hotel.name}">
                 <div>
                     <h3>${day.hotel.name}</h3>
+                    <p>Coördinaten: ${day.hotel.coordinates.lat}, ${day.hotel.coordinates.lon}</p>
                 </div>
             </div>
             <div class="stops">
                 <h4>Tussenstops:</h4>
                 <ul>
-                    ${day.stops.map(stop => `<li>${stop}</li>`).join("")}
+                    ${day.stops
+                        .map(
+                            stop => `
+                                <li>
+                                    <strong>${stop.name}</strong><br>
+                                    Coördinaten: ${stop.coordinates.lat}, ${stop.coordinates.lon}
+                                </li>
+                            `
+                        )
+                        .join("")}
                 </ul>
             </div>
         </div>
