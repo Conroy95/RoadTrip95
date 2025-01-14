@@ -11,7 +11,15 @@ const days = [
         day: "Dag 2 - 7 Mei",
         hotel: {
             name: "Cambria Pines Lodge",
-            image: "images/hotel-brussel.jpg",
+            image: "images/2.jpg",
+        },
+        stops: ["Tussenstop 1: Santa Barbara", "Tussenstop 2: Pismo Beach", "Tussenstop 3: Vandenberg Air Force Base"],
+    },
+    {
+        day: "Dag 3 - 8 Mei",
+        hotel: {
+            name: "Best Western De Anza Inn united states",
+            image: "images/3.jpg",
         },
         stops: ["Tussenstop 1: Santa Barbara", "Tussenstop 2: Pismo Beach", "Tussenstop 3: Vandenberg Air Force Base"],
     },
