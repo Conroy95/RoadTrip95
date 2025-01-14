@@ -6,6 +6,7 @@
         "name": "Hampton Inn by Hilton Los Angeles Airport",
         "address": "10300 La Cienega Blvd | Inglewood CA 90304",
         "coordinates": "33.942722,-118.369611",
+        "image": "assets/images/usa_logo.png",
         "link": "https://example.com/"
       },
       "stops": [
@@ -25,8 +26,9 @@
       "day": 7 May,
       "hotel": {
         "name": "Cambria Pines Lodge",
-        "address": "456 Hill Street, City B",
-        "link": "https://example.com/mountain-lodge"
+        "address": "2905 Burton Drive | Cambria",
+        "coordinates": "35.558722,-121.08011",
+        "link": "https://example.com/"
       },
       "stops": [
         {
