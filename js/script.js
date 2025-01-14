@@ -6,7 +6,10 @@ const days = [
             image: "images/1.jpg",
             coordinates: { lat: 52.379189, lon: 4.899431 }, // Coodrinaten
         },
-        stops: ["Tussenstop 1: Utrecht", "Tussenstop 2: Den Bosch"],
+        stops: [
+            { name: "Utrecht", coordinates: { lat: 52.090737, lon: 5.12142 } },
+            { name: "Den Bosch", coordinates: { lat: 51.697816, lon: 5.303675 } },
+        ],
     },
     {
         day: "Dag 2 - 7 Mei",
