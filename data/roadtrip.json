@@ -36,7 +36,87 @@
     ]
   },
   {
-    "title": "Dag 3: Naar Frankrijk",
+    "title": "Dag 4: 8 Mei",
+    "hotel": "Hotel Paris",
+    "coordinates": "48.856614, 2.352222",
+    "image": "./images/hotel3.jpg",
+    "stops": [
+      {
+        "name": "Lille",
+        "coordinates": "50.629250, 3.057256"
+      },
+      {
+        "name": "Arras",
+        "coordinates": "50.291002, 2.777535"
+      }
+    ]
+  },
+  {
+    "title": "Dag 5:",
+    "hotel": "Hotel Paris",
+    "coordinates": "48.856614, 2.352222",
+    "image": "./images/hotel3.jpg",
+    "stops": [
+      {
+        "name": "Lille",
+        "coordinates": "50.629250, 3.057256"
+      },
+      {
+        "name": "Arras",
+        "coordinates": "50.291002, 2.777535"
+      }
+    ]
+  },
+  {
+    "title": "Dag 6:",
+    "hotel": "Hotel Paris",
+    "coordinates": "48.856614, 2.352222",
+    "image": "./images/hotel3.jpg",
+    "stops": [
+      {
+        "name": "Lille",
+        "coordinates": "50.629250, 3.057256"
+      },
+      {
+        "name": "Arras",
+        "coordinates": "50.291002, 2.777535"
+      }
+    ]
+  },
+  {
+    "title": "Dag 7:",
+    "hotel": "Hotel Paris",
+    "coordinates": "48.856614, 2.352222",
+    "image": "./images/hotel3.jpg",
+    "stops": [
+      {
+        "name": "Lille",
+        "coordinates": "50.629250, 3.057256"
+      },
+      {
+        "name": "Arras",
+        "coordinates": "50.291002, 2.777535"
+      }
+    ]
+  },
+  {
+    "title": "Dag 8:",
+    "hotel": "Hotel Paris",
+    "coordinates": "48.856614, 2.352222",
+    "image": "./images/hotel3.jpg",
+    "stops": [
+      {
+        "name": "Lille",
+        "coordinates": "50.629250, 3.057256"
+      },
+      {
+        "name": "Arras",
+        "coordinates": "50.291002, 2.777535"
+      }
+    ]
+  },
+  {
+    "title": "Dag 9:",
     "hotel": "Hotel Paris",
     "coordinates": "48.856614, 2.352222",
     "image": "./images/hotel3.jpg",
