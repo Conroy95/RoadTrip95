@@ -1,19 +1,19 @@
 const days = [
     {
-        day: "Dag 1",
+        day: "Dag 1 - 6 Mei",
         hotel: {
-            name: "Hotel Amsterdam",
-            image: "images/hotel-amsterdam.jpg",
+            name: "Hampton Inn by Hilton Los Angeles Airport",
+            image: "images/1.jpg",
         },
         stops: ["Tussenstop 1: Utrecht", "Tussenstop 2: Den Bosch"],
     },
     {
-        day: "Dag 2",
+        day: "Dag 2 - 7 Mei",
         hotel: {
-            name: "Hotel Brussel",
+            name: "Cambria Pines Lodge",
             image: "images/hotel-brussel.jpg",
         },
-        stops: ["Tussenstop 1: Antwerpen", "Tussenstop 2: Gent"],
+        stops: ["Tussenstop 1: Santa Barbara", "Tussenstop 2: Pismo Beach", "Tussenstop 3: Vandenberg Air Force Base"],
     },
     // Voeg meer dagen toe zoals hierboven
 ];
