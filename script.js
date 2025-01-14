@@ -28,6 +28,9 @@ function renderDay(days) {
   const content = document.getElementById('content');
   content.innerHTML = `
     <h3>Hotel</h3>
+    <p>
+      <img src="${day.hotel.image}" alt="${day.hotel.image}" style="max-width: 100%; height: auto;">
+    </p>
     <p><strong>${day.hotel.name}</strong><br>${day.hotel.address}<br>
     <a href="${day.hotel.link}" target="_blank">Meer info</a></p>
     
