@@ -30,7 +30,7 @@ function handleNavigation(data) {
   });
 }
 
-// Toon daginformatie
+// Toon daginformatie inclusief tussenstops met coördinaten
 function displayDay(day) {
   const content = document.getElementById('content');
   content.innerHTML = `
@@ -40,7 +40,12 @@ function displayDay(day) {
     <p><strong>Coördinaten:</strong> <a href="https://www.google.com/maps?q=${day.coordinates}" target="_blank">${day.coordinates}</a></p>
     <h3>Tussenstops:</h3>
     <ul>
-      ${day.stops.map(stop => `<li>${stop}</li>`).join('')}
+      ${day.stops.map(stop => `
+        <li>
+          ${stop.name} - 
+          <a href="https://www.google.com/maps?q=${stop.coordinates}" target="_blank">${stop.coordinates}</a>
+        </li>
+      `).join('')}
     </ul>
   `;
 }
