@@ -1,0 +1,8 @@
+{
+  "day": 1,
+  "hotel": {
+    "name": "Hotel Sunshine",
+    "adress": "123 Main Street, City A",
+    "link": "https://example.com"
+  },
+  "stops": [
