@@ -14,8 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ${day.stops.map(stop => `
           <li>
             <strong>${stop.name}</strong> (Coordinates: ${stop.coords})
-            <br>
-            <img src="${stop.img}" alt="${stop.name}">
+            <br><br>
           </li>
         `).join('')}
       </ul>
