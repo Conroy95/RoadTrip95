@@ -1,0 +1,51 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background: #002868; /* Navy Blue */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #bf0a30; /* Red Stripe */
+}
+
+h1 {
+  margin: 0;
+}
+
+#roadtrip-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.day {
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.day h2 {
+  color: #002868;
+}
+
+.day img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+footer {
+  background: #002868;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
